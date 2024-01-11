@@ -14,27 +14,15 @@ import lombok.ToString;
 @Entity
 @Setter
 @Getter
-@ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterMaster {
+@ToString
+public class Role {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private int id;
-  
-  private String firstName;
-  
-  private String lastName;
-  
-  private String emailid;
-  
-  private String mobileNo;
-  
-  private String country;
-  
-  private String password;
-  
-  private String repeatPassword;
-
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	private String rolename;
+	
 }
