@@ -21,5 +21,5 @@ public class UserResponse {
 	
 	private String emailid;
  
-    private String rolename;
+    private String role;
 }

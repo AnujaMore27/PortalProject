@@ -8,5 +8,5 @@ import com.example.demo.model.RegisterMaster;
 @Repository
 public interface RegisterMasterRepository extends JpaRepository<RegisterMaster, Integer>
 {
-
+   RegisterMaster findByEmailidAndPassword(String uname,String password);
 }
